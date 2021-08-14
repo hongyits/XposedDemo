@@ -20,9 +20,9 @@ public class LogUtil {
 
     public static void d(String content){
         Log.d("huanghy-xposed->", content);
-        XposedBridge.log("huanghy******************************");
+        XposedBridge.log("huanghy-xposed******************************");
         XposedBridge.log(content);
-        XposedBridge.log("huanghy------------------------------");
+        XposedBridge.log("huanghy-xposed------------------------------");
     }
 
     public static void e(String content){

@@ -26,7 +26,6 @@ public class BaseModule {
         XposedBridge.log("lxb----------------------------------------------------------------------------------------------------------------------");
 
         if (Config.isDebug) {
-            Log.d("lxb", content);
         }
     }
 }
